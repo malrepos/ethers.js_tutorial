@@ -24,17 +24,36 @@ ethers.js has become an essential skill in any web3 developers toolkit. When I w
 
 # Resources For The Course
 
+## Using WSL2 on Windows
+
+While not essential, I have found that using WSL for development makes things a lot easier. For ethers.js and for Hardhat, developing in WSL is a smoother process with less dependency issues.
+There is excellent documentation for this, and using it in VS code makes it virtually indiscernible from using windows.
+
 - [wsl2 for Windows](https://learn.microsoft.com/en-us/windows/wsl/)
+
+## Node
+
+We will use node.js to manage and run our project.
+
 - [node.js](https://nodejs.org/en/)
+
+## Alchemy, Our Node Provider
+
+In order to talk to the blockchain we need to talk to a node. We could run our own node, however for development purposes we can use a node provider. There are many, including Infura, Quicknode and others. I use Alchemy. It comes with many other resources including a Goerli faucet for 'fake' ether, as well as an SDK. You will need a node provider and test ether for these projects.
+
 - [Alchemy](https://www.alchemy.com/)
 - [Goerli Faucet](https://goerlifaucet.com/)
-- [Etherscan](https://etherscan.io/)
+
+## Etherscan
+
+Etherscan is a fundamental tool for getting details on the Ethereum mainnet and testnets. We will use etherscan to get our contract addresses, token details, as well as explore transactions. Just remember, there is the etherscan for mainnet and another for testnets, in our case the Goerli testnet.
+
+- [Etherscan for Ethereum mainnet](https://etherscan.io/)
+- [Etherscan for the Goerli testnet](https://goerli.etherscan.io/)
 
 # Lesson 1: Introduction to ethers.js
 
 ### What is ethers.js?
-
----
 
 - [ethers.js Documentation](https://docs.ethers.org/v5/)
 
@@ -62,8 +81,6 @@ Code: [Lesson 3: Reading Smart Contracts on the Blockchain](./src/code/readingSm
 
 # Lesson 4: Sending A Signed Transaction on the Goerli Testnet
 
----
-
 Code: [Lesson 4: Sending a Signed Transaction on Goerli Testnet](src/code/sendingTransaction.js)
 
 - Setting up your wallet
@@ -76,8 +93,6 @@ Code: [Lesson 4: Sending a Signed Transaction on Goerli Testnet](src/code/sendin
 
 # Lesson 5: Writing Contracts
 
----
-
 Code: [Lesson 5: Writing Contracts](src/code/writingContracts.js)
 
 - Creating a new wallet object
@@ -89,22 +104,19 @@ Code: [Lesson 5: Writing Contracts](src/code/writingContracts.js)
 - connecting our wallet to the contract in order to interact with it
 - sending a transaction of LINK tokens
 
-# Lesson 6: Section Title
+# Lesson 6: Contract Events
 
----
+Code: [Lesson 6: Contract Events](src/code/contractEvents.js)
 
-Code: [](link_to_the_Lesson_2_repo)
+- What are events?
+- The contract ABI
+- Getting the latest block number from the blockchain
+- Using queryFilter to query specific events
 
--
--
--
+# Lesson 7: Inspecting Blocks and Transactions
 
-# Lesson 7: Section Title
+Code: [Lesson 7: Inspecting Blocks and Transactions](src/code/inspectingBlocksTransactions.js)
 
----
-
-Code: [](link_to_the_Lesson_2_repo)
-
--
--
--
+- Getting all transaction hashes from the latest block
+- getting the block with the transaction details
+- Parsing the resulting transactions
