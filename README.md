@@ -1,12 +1,12 @@
 # ethers.js Tutorial
 
-[Malcolm Miller](malcolm-miller.com)
+My Website - [malcolm-miller.com](malcolm-miller.com)
 
 ## Purpose
 
 ![](./src/images/ethers.js)
 
-ethers.js has become an essential skill in any web3 developers toolkit. When I was trying to learn it I found there wasn't the kind of easy to follow, beginner friendly tutorials out there to get started. So here's my contribution, a selection of tutorials and guides that aim to cover the most important aspects of ethers.js and allow an intermediate developer to gain enough knowledge to then start experimenting and using the DOCS for further instruction.
+ethers.js has become an essential skill in any web3 developers toolkit. When I was trying to learn it I found there wasn't the kind of easy to follow, beginner friendly tutorials out there to get started. So here's my contribution, a selection of tutorials and guides that aim to cover the most important aspects of ethers.js and allow an intermediate developer to gain enough knowledge to then start experimenting and using the DOCS.
 
 ## Table Of Contents
 
